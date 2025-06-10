@@ -5,13 +5,17 @@ const MainPage = () => {
         <section
             className="w-full h-full flex justify-center items-center"
         >
-            
             <div
-                className="absolute flex justify-center items-center gap-2"
+                className="absolute flex flex-col justify-center items-center gap-2"
             >
                 <Button variant="outlined">
                     <Link to="sub/">
                         To subPage
+                    </Link>
+                </Button>
+                <Button variant="outlined">
+                    <Link to="sup/">
+                        To supPage
                     </Link>
                 </Button>
                 <Button variant="outlined">
